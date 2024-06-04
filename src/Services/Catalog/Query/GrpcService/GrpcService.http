@@ -1,0 +1,6 @@
+@GrpcService_HostAddress = http://localhost:5168
+
+GET {{GrpcService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
